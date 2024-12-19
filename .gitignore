@@ -1,0 +1,63 @@
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+ml-service/node_modules/
+
+# Archivos de entorno
+.env
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+
+# Build y dist
+backend/dist/
+frontend/dist/
+ml-service/dist/
+
+# Cobertura de pruebas
+coverage/
+
+# Archivos de configuración específicos
+.eslintcache
+
+# Ignorar entorno virtual en ml-service/env
+ml-service/env/bin/
+ml-service/env/lib/
+ml-service/env/lib64/
+
+# Ignorar otros archivos del entorno virtual
+ml-service/env/pyvenv.cfg
+ml-service/env/include/
+
+# Ignorar archivos de pip
+ml-service/env/pip-log.txt
+ml-service/env/pip-delete-this-directory/
+
+# Ignorar archivos generales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de bases de datos
+*.db
+*.sqlite3
+
+# Ignorar archivos de entorno
+*.env
+
+# Ignorar archivos de distribución de Python
+*.egg-info/
+dist/
+build/
+.eggs/
